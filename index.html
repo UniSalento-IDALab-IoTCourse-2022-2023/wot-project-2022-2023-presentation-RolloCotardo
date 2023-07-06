@@ -268,6 +268,8 @@
               <p> Sul Raspberry col codice che simula la sega a nastro </p>
               <p style="font-family: monospace"> > python mainTornio.py </p>
               <p> Sul Raspberry col codice che simula il tornio </p>
+              <p>Nel caso l'avvio non dovesse andare a buon fine potrebbe essere necessario installare la libreria pyModbus usata nei codici:</p>
+              <p style="font-family: monospace"> > pip install pyModbusTCP </p>
           <h3>3 - Avvio del Backend (Springboot e Mongo)  </h3>
               <p>Ora è necessario avviare i container Springboot e Mongo</p>
               <p>Per fare ciò è necessario avere Docker installato sul proprio PC, spostarsi nella cartella dove c'è il file
@@ -286,7 +288,7 @@
               <p>Ora che l'intero sistema è up è il momento di avviare l'applicazione android installata sul proprio cellulare, la quale
               entrerà automaticamente in funzione. </p>
               <p>Se non si ha l'applicazione installata è necessario aprire Android Studio e generare l'apk dell'applicazione, ma prima
-              è importante cambiare l'ip del broker MQTT don quello corretto.</p>
+              è importante cambiare l'ip del broker MQTT con quello corretto.</p>
           <h3>6 - Avvio del frontend e accesso alla dashboard  </h3>
               <p>Ora è possibile sfruttare anche le funzionalità della dashboard</p>
               <p>Per fare questo è necessario prima di tutto aggiungere un amministratore al sistema. Per fare ciò è sufficiente aprire PostMan e lanciare la seguente richiesta POST
