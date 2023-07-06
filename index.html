@@ -214,8 +214,8 @@
                 si fa troppo grande, l'applicazione effettua un subscribing dinamico al topic associato al macchinario di quel beacon (i topic sono
                   "allarme/sega/1" per il macchinario sega e "allarme/tornio/1" per il macchinario tornio), in questo modo
                   l'applicazione sarà in grado di ricevere eventuali notifiche di allarme mandate dal backend ed associate a quel topic.
-                  Allo stesso modo, quando il valore dell'rssi si fa troppo piccolo o scompare del tutto, viene effettuata una cancellazione dinamica
-                da quel topic. Tramite questo modo si è in grado di tenere traccia di quale lavoratore si trovi vicino a quale macchinario, e mandare le notifiche
+                  Allo stesso modo, quando il valore dell'RSSI va sotto una certa soglia o scompare del tutto, viene effettuata una cancellazione dinamica
+                da quel topic. Tramite questo processo si è in grado di tenere traccia di quale lavoratore si trovi vicino a quale macchinario, e mandare le notifiche
                 di allarme in maniera intelligente e mirata ai vari operatori</td>
               </tr>
               <tr>
